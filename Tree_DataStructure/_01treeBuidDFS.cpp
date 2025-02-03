@@ -37,6 +37,25 @@ Node *buildTree()
     return n;
 }
 
+//Using this we can convert array to binary tree representation
+//checkout the revise tree folder for this.
+
+// Node *arrToTree(vector<int>arr, int& idx){
+    
+//     //Base case:-
+//     if( idx >= arr.size() || arr[idx] == -1){
+//         idx+=1;
+//         return NULL;
+//     }
+
+//     Node *n = new Node(arr[idx]);
+//     idx +=1;
+//     n->left = arrToTree(arr, idx);
+//     n->right = arrToTree(arr, idx);
+//     return n;
+     
+// }
+
 // 1.Preorder-traversal
 void printPreorder(Node *root)
 {
