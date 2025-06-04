@@ -32,5 +32,10 @@ int main()
 
     print_graph(graph);
 
+    //(important):-
+    // For implementing the "weighted graph" we use the
+    //   unordered_map<int, vector<pair<int, int>>> graph;
+    // Here pair point the each node weight
+
     return 0;
 }
